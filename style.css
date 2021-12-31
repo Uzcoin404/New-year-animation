@@ -4,6 +4,17 @@
     box-sizing: border-box;
     font-family: 'Roboto';
 }
+body{
+    overflow: hidden;
+}
+.loader{
+    position: fixed;
+    overflow: hidden;
+    background: #212529;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+}
 .loader_title{
     font-family: 'Roboto';
     font-size: 72px;
